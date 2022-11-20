@@ -51,3 +51,6 @@ def eliminarclient(id_client):
         return {"Mensaje": "Cliente eliminado"}
     else:
         return {"Mensaje": "Cliente no encontrado"}
+
+def test():
+    print("hola")
